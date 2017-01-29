@@ -19,11 +19,13 @@
 			<div id="Login">
 				
 				<form>
+					
+					<h2>Login</h2>
 					Enter ID:<br>
-					<input type="text" class="Text" name="ID"><br><br><br><br>
+					<input type="text" class="Text" name="ID"><br><br><br>
 					
 					Enter password (optional):<br>
-					<input type="password" class="Text" name="password"><br><br><br><br>
+					<input type="password" class="Text" name="password"><br><br><br>
 					
 					<input type="submit" id="SubmitButton" name="submit" value="submit">
 				</form>
