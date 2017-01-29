@@ -12,3 +12,12 @@ $('#Button input').mouseenter(function(){
 	$('#Login').show();
 	
 });
+
+
+$('.Text').focusin(function(){
+	
+	$(this).css('background-color','#F9E79F');
+}).focusout(function(){
+	
+	$(this).css('background-color','#fff');
+});
