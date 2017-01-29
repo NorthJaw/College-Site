@@ -14,11 +14,13 @@
 				
 				<img id="Image1" src="http://indiangraduate.in/wp-content/uploads/Engineering/Tamil-Nadu/35299-Sri-Venkateswara-College-of-Engineering.jpg">
 				<h2><span id="Button"><a id="link"><input type="button" value="Log-in" /></span></a><h2>
+				
+				<h2><span id="SiteName">*Website Name?*</span><h2>
 			</div>
 			
 			<div id="Login">
 				
-				<form>
+				<form action="OpenPage.php" method="POST">
 					
 					<h2>Login</h2>
 					Enter ID:<br>
