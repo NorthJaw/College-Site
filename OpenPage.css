@@ -12,7 +12,7 @@
 	width:100%;
 }
 
-#Button{
+#ButtonSpan{
 
 	position:absolute;
 	top:80%;
@@ -20,7 +20,8 @@
 	text-align:center;
 }
 
-#Button input{
+
+.Button{
 
 	background-color:grey;
 	font-size:35px;
@@ -77,4 +78,18 @@
 	font-family:cursive;
 	font-size:50px;
 	text-align:center;
+}
+
+#NoLogin{
+	
+	position:absolute;
+	top:90%;
+	width:100%;
+	text-align:center;
+	opacity:1;
+}
+
+#NoLog{
+	
+	font-size:1em;
 }
