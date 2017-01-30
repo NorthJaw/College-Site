@@ -1,4 +1,4 @@
-$('#Button input').mouseenter(function(){
+$('.Button').mouseenter(function(){
 	
 	$(this).css('opacity','1');
 	
@@ -8,10 +8,23 @@ $('#Button input').mouseenter(function(){
 	
 }).click(function(){
 	
-	$(this).hide();
-	$('#Login').show();
+	$('.Button').hide();
+	
+	if($(this).val() === 'Login'){	
+		$('#Login').show();
+	}
+	else if($(this).val() === 'Signup'){
+		$('#Signup').show();
+	}
 	
 });
+
+$('#Login').mouseleave(function(){
+	
+	$('#Login').hide();
+	$('#Signup').hide();
+	$('.Button').show();
+})
 
 
 $('.Text').focusin(function(){

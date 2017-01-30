@@ -1,18 +1,21 @@
-#FullPage{
+html, body{
 	
-	position:fixed;
 	height:100%;
-	width:100%;
+	margin:0;
+	padding:0;
 }
 
 #Image1{
 	
-	position:relative;
-	height:100%;
+	position:absolute;
+	padding:0;
+	display:block;
+	margin:0 auto;
+	max-height:100%;
 	width:100%;
 }
 
-#Button{
+#ButtonSpan{
 
 	position:absolute;
 	top:80%;
@@ -20,7 +23,8 @@
 	text-align:center;
 }
 
-#Button input{
+
+.Button{
 
 	background-color:grey;
 	font-size:35px;
@@ -31,7 +35,7 @@
 #Login{
 
 	display:none;
-	position:fixed;
+	position:absolute;
 	margin:15% 0% 0% 37.5%;
 	height:55%;
 	width:25%;
@@ -77,4 +81,18 @@
 	font-family:cursive;
 	font-size:50px;
 	text-align:center;
+}
+
+#NoLogin{
+	
+	position:absolute;
+	top:90%;
+	width:100%;
+	text-align:center;
+	opacity:1;
+}
+
+#NoLog{
+	
+	font-size:1em;
 }
