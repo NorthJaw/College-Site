@@ -5,26 +5,35 @@ $('.Button').mouseenter(function(){
 }).mouseleave(function(){
 	
 	$(this).css('opacity','0.5');
-	
+
 }).click(function(){
 	
 	$('.Button').hide();
 	
 	if($(this).val() === 'Login'){	
-		$('#Login').show();
+		$('#Login').fadeIn(1000);
 	}
 	else if($(this).val() === 'Signup'){
-		$('#Signup').show();
+		$('#Signup').fadeIn(1000);
 	}
-	
+
+});
+$(window).click(function() {
+                          $('#Login').fadeOut(1000);
+                           $('#Signup').fadeIn(1000);
+                           $('.Button').show();
 });
 
-$('#Login').mouseleave(function(){
-	
+$('#masterdiv').click(function(event){
+    event.stopPropagation();
+});
+
+/*$('#Login').mouseleave(function(){
+
 	$('#Login').hide();
 	$('#Signup').hide();
 	$('.Button').show();
-})
+})              */
 
 
 $('.Text').focusin(function(){
