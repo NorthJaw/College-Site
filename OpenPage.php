@@ -13,13 +13,13 @@
 		<img id="Image1" src="http://indiangraduate.in/wp-content/uploads/Engineering/Tamil-Nadu/35299-Sri-Venkateswara-College-of-Engineering.jpg">
 			
 			
-				
+	<div id='masterdiv'>
 		<h2><span id="SiteName">*Website Name?*</span><h2>
 					
 		<h2><span id="ButtonSpan">
 					
-		<input type="button" class="Button" value="Login" />
-		<input type="button" class="Button" value="Signup" />
+	        	<input type="button" class="Button" value="Login" />
+		        <input type="button" class="Button" value="Signup" />
 		
 		</span><h2>
 					
@@ -46,7 +46,7 @@
 				</form>
 				
 			</div>
-			
+	</div>	
 		
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="OpenPage.js"></script>
