@@ -1,14 +1,17 @@
-#FullPage{
+html, body{
 	
-	position:fixed;
 	height:100%;
-	width:100%;
+	margin:0;
+	padding:0;
 }
 
 #Image1{
 	
-	position:relative;
-	height:100%;
+	position:absolute;
+	padding:0;
+	display:block;
+	margin:0 auto;
+	max-height:100%;
 	width:100%;
 }
 
@@ -29,10 +32,10 @@
 	opacity:0.5;
 }
 
-#Login{
+.Register{
 
 	display:none;
-	position:fixed;
+	position:absolute;
 	margin:15% 0% 0% 37.5%;
 	height:55%;
 	width:25%;
@@ -41,7 +44,7 @@
 	opacity:1;
 }
 
-#Login form{
+.Register form{
 	
 	position:relative;
 	text-align:center;
@@ -56,7 +59,7 @@
 	font-size:1em;
 }
 
-#SubmitButton{
+.SubmitButton{
 	
 	height:2em;
 	width:4em;
@@ -65,7 +68,7 @@
 	border-radius:10px;
 }
 
-#Login form h2{
+.Register form h2{
 
 	font-family:cursive;
 }

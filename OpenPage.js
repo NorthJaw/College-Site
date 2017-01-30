@@ -14,7 +14,7 @@ $('.Button').mouseenter(function(){
 		$('#Login').show();
 	}
 	else if($(this).val() === 'Signup'){
-		$('#Signup').show();
+		$('#Signup1').show();
 	}
 	
 });
@@ -22,10 +22,25 @@ $('.Button').mouseenter(function(){
 $('#Login').mouseleave(function(){
 	
 	$('#Login').hide();
-	$('#Signup').hide();
 	$('.Button').show();
+});
+
+$('#Signup1').mouseleave(function(){
+	
+	$('#Signup1').hide();
+	$('.Button').show();
+});
+
+$('#Signup2').mouseenter(function(){
+	
+	$('.Button').hide();
 })
 
+$('#Signup2').mouseleave(function(){
+	
+	$('#Signup2').hide();
+	$('.Button').show();
+});
 
 $('.Text').focusin(function(){
 	
@@ -33,4 +48,11 @@ $('.Text').focusin(function(){
 }).focusout(function(){
 	
 	$(this).css('background-color','#fff');
+});
+
+
+$('#NextButton').click(function(){
+	
+	$('#Signup1').hide();
+	$('#Signup2').show();
 });
