@@ -14,18 +14,18 @@
 			
 			
 				
-				<h2><span id="SiteName">*Website Name?*</span><h2>
+		<h2><span id="SiteName">*Website Name?*</span><h2>
 					
-				<h2><span id="ButtonSpan"><a>
+		<h2><span id="ButtonSpan">
 					
-					<input type="button" class="Button" value="Login" />
-					<input type="button" class="Button" value="Signup" />
-				
-				</span></a><h2>
+		<input type="button" class="Button" value="Login" />
+		<input type="button" class="Button" value="Signup" />
+		
+		</span><h2>
 					
-				<h3><span id="NoLogin"><a href="www.google.co.in" class="Button" id="NoLog">
-					Continue without logging in
-				</a></span></h3>
+		<h3><span id="NoLogin"><a href="www.google.co.in" class="Button" id="NoLog">
+			Continue without logging in
+		</a></span></h3>
 				
 			
 			

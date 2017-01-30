@@ -6,7 +6,7 @@ $('.Button').mouseenter(function(){
 	
 	$(this).css('opacity','0.5');
 	
-}).click(function(event){
+}).click(function(){
 	
 	$('.Button').hide();
 	
@@ -16,14 +16,15 @@ $('.Button').mouseenter(function(){
 	else if($(this).val() === 'Signup'){
 		$('#Signup').show();
 	}
-	event.stopPropagation();
 	
 });
 
-$(window).click(function(){
+$('#Login').mouseleave(function(){
 	
 	$('#Login').hide();
-});
+	$('#Signup').hide();
+	$('.Button').show();
+})
 
 
 $('.Text').focusin(function(){
