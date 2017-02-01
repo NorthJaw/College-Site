@@ -32,7 +32,7 @@ html, body{
 	opacity:0.5;
 }
 
-#Login{
+.Register{
 
 	display:none;
 	position:absolute;
@@ -44,7 +44,7 @@ html, body{
 	opacity:1;
 }
 
-#Login form{
+.Register form{
 	
 	position:relative;
 	text-align:center;
@@ -59,7 +59,7 @@ html, body{
 	font-size:1em;
 }
 
-#SubmitButton{
+.SubmitButton{
 	
 	height:2em;
 	width:4em;
@@ -68,7 +68,7 @@ html, body{
 	border-radius:10px;
 }
 
-#Login form h2{
+.Register form h2{
 
 	font-family:cursive;
 }

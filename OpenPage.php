@@ -13,13 +13,13 @@
 		<img id="Image1" src="http://indiangraduate.in/wp-content/uploads/Engineering/Tamil-Nadu/35299-Sri-Venkateswara-College-of-Engineering.jpg">
 			
 			
-	<div id='masterdiv'>
+				
 		<h2><span id="SiteName">*Website Name?*</span><h2>
 					
 		<h2><span id="ButtonSpan">
 					
-	        	<input type="button" class="Button" value="Login" />
-		        <input type="button" class="Button" value="Signup" />
+		<input type="button" class="Button" value="Login" />
+		<input type="button" class="Button" value="Signup" />
 		
 		</span><h2>
 					
@@ -31,22 +31,52 @@
 			
 			
 			
-			<div id="Login">
+		<div id="Login" class="Register">
 				
-				<form action="OpenPage.php" method="POST">
+			<form action="OpenPage.php" method="POST">
 					
-					<h2>Login</h2>
-					Enter ID:<br>
+				<h2>Login</h2>
+				Enter reg. no:<br>
+				<input type="text" class="Text" name="ID"><br><br><br>
+				Enter password:<br>
+				<input type="password" class="Text" name="password"><br><br><br>
+					
+				<input type="submit" class="SubmitButton" name="submit" value="submit">
+			</form>
+				
+		</div>
+		
+		
+		<div id="Signup1" class="Register">
+				
+			<form action="OpenPage.php" method="POST">
+				
+					<h2>Signup</h2>
+					Enter reg. no:<br>
 					<input type="text" class="Text" name="ID"><br><br><br>
+					Enter DOB:<br>
+					<input type="text" class="Text" name="ID"><br><br><br>
+					<input type="Button" class="SubmitButton" id="NextButton" name="Next" value="Next">
 					
-					Enter password (optional):<br>
-					<input type="password" class="Text" name="password"><br><br><br>
-					
-					<input type="submit" id="SubmitButton" name="submit" value="submit">
-				</form>
+			</form>
+		</div>
+		
 				
-			</div>
-	</div>	
+		<div class="Register" id="Signup2">
+			
+			<form action="OpenPage.php" method="POST">
+				<h2>Signup</h2>
+					Enter password:<br>
+					<input type="password" class="Text" name="password"><br><br><br>
+					Re-Enter password:<br>
+					<input type="password" class="Text" name="password"><br><br><br>	
+					<input type="submit" class="SubmitButton" name="submit" value="submit">
+				
+			</form>
+				
+		</div>
+		
+			
 		
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="OpenPage.js"></script>

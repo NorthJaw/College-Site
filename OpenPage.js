@@ -5,35 +5,34 @@ $('.Button').mouseenter(function(){
 }).mouseleave(function(){
 	
 	$(this).css('opacity','0.5');
-
+	
 }).click(function(){
 	
 	$('.Button').hide();
 	
 	if($(this).val() === 'Login'){	
-		$('#Login').fadeIn(1000);
+		$('#Login').show();
 	}
 	else if($(this).val() === 'Signup'){
-		$('#Signup').fadeIn(1000);
+		$('#Signup1').show();
 	}
-
-});
-$(window).click(function() {
-                          $('#Login').fadeOut(1000);
-                           $('#Signup').fadeIn(1000);
-                           $('.Button').show();
+	
 });
 
-$('#masterdiv').click(function(event){
-    event.stopPropagation();
-});
-
-/*$('#Login').mouseleave(function(){
-
-	$('#Login').hide();
-	$('#Signup').hide();
+$(window).click(function(){
+	
+	$('.Register').hide();
 	$('.Button').show();
-})              */
+});
+
+$('.Register').click(function(event){
+	
+	event.stopPropagation();
+});
+
+$('.Button').click(function(event){
+	event.stopPropagation();
+});
 
 
 $('.Text').focusin(function(){
@@ -42,4 +41,11 @@ $('.Text').focusin(function(){
 }).focusout(function(){
 	
 	$(this).css('background-color','#fff');
+});
+
+
+$('#NextButton').click(function(){
+	
+	$('#Signup1').hide();
+	$('#Signup2').show();
 });
