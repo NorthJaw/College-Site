@@ -37,11 +37,11 @@
 					
 				<h2>Login</h2>
 				Enter reg. no:<br>
-				<input type="text" class="Text" name="ID"><br><br><br>
+				<input type="text" class="Text" name="RegNo"><br><br><br>
 				Enter password:<br>
-				<input type="password" class="Text" name="password"><br><br><br>
+				<input type="password" class="Text" name="Password"><br><br><br>
 					
-				<input type="submit" class="SubmitButton" name="submit" value="submit">
+				<input type="submit" class="SubmitButton" name="Submit" value="submit">
 			</form>
 				
 		</div>
@@ -53,13 +53,13 @@
 				
 					<h2>Signup</h2>
 					Enter reg. no:<br>
-					<input type="text" class="Text" name="ID" class="PrimaryField"><br><br><br>
+					<input type="text" class="Text" name="RegNo" id="RegNo"><br><br><br>
 					Enter DOB:<br>
-					<input type="text" class="Text" name="ID" class="PrimaryField"><br><br><br>
+					<input type="text" class="Text" name="DOB"><br><br><br>
 					Enter password:<br>
-					<input type="password" class="Text" name="password" class="SecondaryField"><br><br><br>
+					<input type="password" class="Text" name="Password"><br><br><br>
 					Re-Enter password:<br>
-					<input type="password" class="Text" name="password" class="SecondaryField"><br><br><br>	
+					<input type="password" class="Text" name="RePassword"><br><br><br>	
 					<h2><input type="submit" class="SubmitButton" name="submit" value="submit"></h2>
 					
 			</form>

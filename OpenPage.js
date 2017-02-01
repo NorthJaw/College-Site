@@ -35,7 +35,7 @@ $('.Button').click(function(event){
 });
 
 
-$('.Text').focusin(function(){
+$(':input').focusin(function(){
 	
 	$(this).css('background-color','#F9E79F');
 }).focusout(function(){
