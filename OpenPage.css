@@ -101,10 +101,18 @@ input[type=password]{
 	font-size:20px;
 }
 
-#RegNo{
-	
-	align:right;
+.PrimaryField{
+
+	display:inline-block;
+	margin:auto auto auto 5%;
 }
+
+.SecondaryField{
+
+	display:inline-block;
+	margin:auto auto auto 5%;
+}
+
 
 
 #SiteName{
