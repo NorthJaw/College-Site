@@ -1,12 +1,12 @@
 html, body{
-	
+
 	height:100%;
 	margin:0;
 	padding:0;
 }
 
 #Image1{
-	
+
 	position:absolute;
 	padding:0;
 	display:block;
@@ -32,7 +32,7 @@ html, body{
 	opacity:0.5;
 }
 
-.Register{
+#Login{
 
 	display:none;
 	position:absolute;
@@ -44,37 +44,66 @@ html, body{
 	opacity:1;
 }
 
-.Register form{
-	
+#Login form{
+
 	position:relative;
 	text-align:center;
 	top:0%;
 	font-size:20px;
 }
 
-.Text{
-	
+input[type=text]{
+
+	height:1em;
+	width:8em;
+	font-size:1em;
+}
+
+input[type=password]{
+
 	height:1em;
 	width:8em;
 	font-size:1em;
 }
 
 .SubmitButton{
-	
+
 	height:2em;
 	width:4em;
 	border:none;
 	font-size:20px;
 	border-radius:10px;
+	text-align:center;
 }
 
 .Register form h2{
 
 	font-family:cursive;
+	text-align:center;
 }
 
+#Signup{
+
+	display:none;
+	position:absolute;
+	margin:15% 0% 0% 25%;
+	height:55%;
+	width:50%;
+	background-color:white;
+	border-radius:15px;
+	opacity:1;
+}
+
+#Signup form{
+
+	position:relative;
+	top:0%;
+	font-size:20px;
+}
+
+
 #SiteName{
-	
+
 	position:absolute;
 	top:10%;
 	width:100%;
@@ -84,7 +113,7 @@ html, body{
 }
 
 #NoLogin{
-	
+
 	position:absolute;
 	top:90%;
 	width:100%;
@@ -93,6 +122,15 @@ html, body{
 }
 
 #NoLog{
-	
+
 	font-size:1em;
+}
+
+.Rows{
+	display:inline-block;
+}
+
+.SignupField{
+	float:left;
+	padding:0 60px 0 80px;
 }

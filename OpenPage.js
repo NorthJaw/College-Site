@@ -14,7 +14,7 @@ $('.Button').mouseenter(function(){
 		$('#Login').show();
 	}
 	else if($(this).val() === 'Signup'){
-		$('#Signup1').show();
+		$('#Signup').show();
 	}
 	
 });
@@ -35,17 +35,10 @@ $('.Button').click(function(event){
 });
 
 
-$('.Text').focusin(function(){
+$(':input').focusin(function(){
 	
 	$(this).css('background-color','#F9E79F');
 }).focusout(function(){
 	
 	$(this).css('background-color','#fff');
-});
-
-
-$('#NextButton').click(function(){
-	
-	$('#Signup1').hide();
-	$('#Signup2').show();
 });
