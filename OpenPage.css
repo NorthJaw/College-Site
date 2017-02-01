@@ -32,7 +32,7 @@ html, body{
 	opacity:0.5;
 }
 
-.Register{
+#Login{
 
 	display:none;
 	position:absolute;
@@ -44,7 +44,7 @@ html, body{
 	opacity:1;
 }
 
-.Register form{
+#Login form{
 	
 	position:relative;
 	text-align:center;
@@ -66,12 +66,44 @@ html, body{
 	border:none;
 	font-size:20px;
 	border-radius:10px;
+	text-align:center;
 }
 
 .Register form h2{
 
 	font-family:cursive;
+	text-align:center;
 }
+
+#Signup{
+
+	display:none;
+	position:absolute;
+	margin:15% 0% 0% 18.5%;
+	height:55%;
+	width:50%;
+	background-color:white;
+	border-radius:15px;
+	opacity:1;
+}
+
+#Signup form{
+	
+	position:relative;
+	top:0%;
+	font-size:20px;
+}
+
+.PrimaryField{
+	position:absolute;
+	left:50%;
+}
+
+.SecondaryField{
+	position:absolute;
+	margin:10% auto auto 75%;
+}
+
 
 #SiteName{
 	

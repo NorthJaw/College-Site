@@ -47,35 +47,23 @@
 		</div>
 		
 		
-		<div id="Signup1" class="Register">
+		<div id="Signup" class="Register">
 				
 			<form action="OpenPage.php" method="POST">
 				
 					<h2>Signup</h2>
 					Enter reg. no:<br>
-					<input type="text" class="Text" name="ID"><br><br><br>
+					<input type="text" class="Text" name="ID" class="PrimaryField"><br><br><br>
 					Enter DOB:<br>
-					<input type="text" class="Text" name="ID"><br><br><br>
-					<input type="Button" class="SubmitButton" id="NextButton" name="Next" value="Next">
+					<input type="text" class="Text" name="ID" class="PrimaryField"><br><br><br>
+					Enter password:<br>
+					<input type="password" class="Text" name="password" class="SecondaryField"><br><br><br>
+					Re-Enter password:<br>
+					<input type="password" class="Text" name="password" class="SecondaryField"><br><br><br>	
+					<h2><input type="submit" class="SubmitButton" name="submit" value="submit"></h2>
 					
 			</form>
 		</div>
-		
-				
-		<div class="Register" id="Signup2">
-			
-			<form action="OpenPage.php" method="POST">
-				<h2>Signup</h2>
-					Enter password:<br>
-					<input type="password" class="Text" name="password"><br><br><br>
-					Re-Enter password:<br>
-					<input type="password" class="Text" name="password"><br><br><br>	
-					<input type="submit" class="SubmitButton" name="submit" value="submit">
-				
-			</form>
-				
-		</div>
-		
 			
 		
 		<script type="text/javascript" src="jquery.js"></script>

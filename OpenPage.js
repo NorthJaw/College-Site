@@ -14,33 +14,26 @@ $('.Button').mouseenter(function(){
 		$('#Login').show();
 	}
 	else if($(this).val() === 'Signup'){
-		$('#Signup1').show();
+		$('#Signup').show();
 	}
 	
 });
 
-$('#Login').mouseleave(function(){
+$(window).click(function(){
 	
-	$('#Login').hide();
+	$('.Register').hide();
 	$('.Button').show();
 });
 
-$('#Signup1').mouseleave(function(){
+$('.Register').click(function(event){
 	
-	$('#Signup1').hide();
-	$('.Button').show();
+	event.stopPropagation();
 });
 
-$('#Signup2').mouseenter(function(){
-	
-	$('.Button').hide();
-})
-
-$('#Signup2').mouseleave(function(){
-	
-	$('#Signup2').hide();
-	$('.Button').show();
+$('.Button').click(function(event){
+	event.stopPropagation();
 });
+
 
 $('.Text').focusin(function(){
 	
@@ -48,11 +41,4 @@ $('.Text').focusin(function(){
 }).focusout(function(){
 	
 	$(this).css('background-color','#fff');
-});
-
-
-$('#NextButton').click(function(){
-	
-	$('#Signup1').hide();
-	$('#Signup2').show();
 });
