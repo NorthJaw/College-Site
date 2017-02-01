@@ -56,31 +56,18 @@
 							<input type="text" name="FirstName" placeholder="First Name" class="Name">
 						</div>
 						<div class="NameRow">
-							<input type="text" name="LastName" placeholder="Last Name" class="Name"><br><br><br>
+							<input type="text" name="LastName" placeholder="Last Name" class="Name"><br><br>
 						</div>
 					</div>
 					
-					<div class="Rows">
-						<div class="SignupField">
-							<input type="text" name="RegNo" placeholder="Register No." class="SignupInput">
-						</div>				
+					<input type="text" name="RegNo" placeholder="Register No." class="SignupInput">	<br>		
 					
-						<div class="SignupField">
-							<input type="password" name="Password" placeholder="Password" class="SignupInput"><br><br>
-						</div>
-					</div>
+					<input type="password" name="Password" placeholder="Password" class="SignupInput"><br>
 					
 					
-					<div class="Rows">
-						<div class="SignupField">
-							<input type="text" name="DOB" placeholder="Date of Birth" class="SignupInput">
-						</div>
-						
-						<div class="SignupField">
-							<input type="password" name="RePassword" placeholder="Re-enter Password" class="SignupInput"><br>
-						</div>
-					</div>	
-						
+					<input type="text" name="DOB" placeholder="Date of Birth" class="SignupInput">	<br>
+					
+					<input type="password" name="RePassword" placeholder="Re-enter Password" class="SignupInput">
 					
 					<h2><input type="submit" class="SubmitButton" name="submit" value="submit"></h2>
 
