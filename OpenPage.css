@@ -52,19 +52,13 @@ html, body{
 	font-size:20px;
 }
 
-input[type=text]{
+.LoginField{
 
 	height:1em;
 	width:8em;
 	font-size:1em;
 }
 
-input[type=password]{
-
-	height:1em;
-	width:8em;
-	font-size:1em;
-}
 
 .SubmitButton{
 
@@ -86,8 +80,8 @@ input[type=password]{
 
 	display:none;
 	position:absolute;
-	margin:15% 0% 0% 25%;
-	height:55%;
+	margin:12% 0% 0% 25%;
+	height:60%;
 	width:50%;
 	background-color:white;
 	border-radius:15px;
@@ -132,5 +126,26 @@ input[type=password]{
 
 .SignupField{
 	float:left;
-	padding:0 60px 0 80px;
+	padding:0 20px 0 20px;
+}
+
+.NameRow{
+	float:left;
+	padding:0 0 0 10px;
+}
+
+.SignupInput{
+	
+	height:2em;
+	width:13.2em;
+	font-size:1em;
+}
+
+.Name{
+	
+	float:left;
+	margin:0 0 0 10px;
+	height:2em;
+	width:6em;
+	font-size:1em;
 }

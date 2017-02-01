@@ -35,11 +35,9 @@
 
 			<form action="OpenPage.php" method="POST">
 
-				<h2>Login</h2>
-				Enter reg. no:<br>
-				<input type="text" name="RegNo" class="LoginField"><br><br><br>
-				Enter password:<br>
-				<input type="password" name="Password" class="LoginField"><br><br><br>
+				<h2>Login</h2><br>
+				<input type="text" name="RegNo" class="LoginField" placeholder="Register No."><br><br><br>
+				<input type="password" name="Password" class="LoginField" placeholder="Password"><br><br><br>
 
 				<input type="submit" class="SubmitButton" name="Submit" value="submit">
 			</form>
@@ -54,27 +52,32 @@
 					<h2>Signup</h2>
 					
 					<div class="Rows">
-						<div class="SignupField" id="Reg">
-							Enter reg. no:<br>
-							<input type="text" name="RegNo">
+						<div class="NameRow">
+							<input type="text" name="FirstName" placeholder="First Name" class="Name">
+						</div>
+						<div class="NameRow">
+							<input type="text" name="LastName" placeholder="Last Name" class="Name"><br><br><br>
+						</div>
+					</div>
+					
+					<div class="Rows">
+						<div class="SignupField">
+							<input type="text" name="RegNo" placeholder="Register No." class="SignupInput">
 						</div>				
 					
-						<div class="SignupField" id="Pass">
-							Enter password:<br>
-							<input type="password" name="Password"><br><br><br>
+						<div class="SignupField">
+							<input type="password" name="Password" placeholder="Password" class="SignupInput"><br><br>
 						</div>
 					</div>
 					
 					
 					<div class="Rows">
 						<div class="SignupField">
-							Enter DOB:<br>
-							<input type="text" name="DOB">
+							<input type="text" name="DOB" placeholder="Date of Birth" class="SignupInput">
 						</div>
 						
 						<div class="SignupField">
-							Re-Enter password:<br>
-							<input type="password" name="RePassword"><br>
+							<input type="password" name="RePassword" placeholder="Re-enter Password" class="SignupInput"><br>
 						</div>
 					</div>	
 						
