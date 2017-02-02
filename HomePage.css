@@ -30,8 +30,8 @@ body{
 #Settings{
 
 	position:fixed;
-
-	top:15%;
+	display:none;
+	top:11.5%;
 	right:1%;
 	background-color:white;
 	height:8%;
