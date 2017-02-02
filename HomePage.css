@@ -1,12 +1,12 @@
 body{
-	background-color:#eef;
+	background-color:#f0f0f0;
 }
 
 #Options{
 	
 	position:absolute;
 	display:inline-block;
-	background-color:#2C3E50;
+	background-color:red;
 	height:10%;
 	width:100%;
 }
@@ -19,11 +19,15 @@ body{
 	text-align:center;
 	max-height:100%;
 }
+img{
+        max-height:100%;
+        max-width:100%;
+}
+#Image{
 
-#Image img{
-	
 	float:right;
-	max-height:50%;
+        height:30px;
+        width: 80px;
 	padding:1.5% 1.5% 0 0;
 }
 

@@ -43,7 +43,7 @@
 			<div class="SettingsOptions">Log Out</div>
 			<div class="SettingsOptions">Account</div>
 		</div>
-		
+
 		
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="HomePage.js"></script>

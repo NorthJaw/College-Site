@@ -1,3 +1,3 @@
-$('#Image').click(function(){	
-	$('#Settings').fadeToggle();	
+$('#Image').click(function(){
+	$('#Settings').slideToggle();
 });
