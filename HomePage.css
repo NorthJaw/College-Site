@@ -1,0 +1,45 @@
+body{
+	background-color:#eef;
+}
+
+#Options{
+	
+	position:absolute;
+	display:inline-block;
+	background-color:#2C3E50;
+	height:10%;
+	width:100%;
+}
+
+.Option{
+	
+	float:left;
+	padding:0 20px 0 20px;
+	border-right:2px solid;
+	text-align:center;
+	max-height:100%;
+}
+
+#Image img{
+	
+	float:right;
+	max-height:50%;
+	padding:1.5% 1.5% 0 0;
+}
+
+#Settings{
+
+	position:fixed;
+
+	top:15%;
+	right:1%;
+	background-color:white;
+	height:8%;
+	width:10%;
+}
+
+.SettingsOptions{
+	
+	padding:5% 0 0 5%;
+	border-bottom:1px solid black;
+}
